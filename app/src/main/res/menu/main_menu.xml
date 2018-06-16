@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/red"
+        android:title="GARBAGE CARD">
+
+    </item>
+    <item android:id="@+id/green"
+        android:title="GREEN CARD">
+
+    </item>
+    <item android:id="@+id/black"
+        android:title="Benefits and Instructions">
+
+    </item>
+    <item android:id="@+id/brown"
+        android:title="About us">
+
+    </item>
+</menu>

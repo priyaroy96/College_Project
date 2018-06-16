@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.kumaratul.college_project.Viewrecord"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Record"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_weight="0.15" />
+
+</LinearLayout>

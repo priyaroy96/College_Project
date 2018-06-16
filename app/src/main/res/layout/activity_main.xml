@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.kumaratul.college_project.MainActivity"
+    android:background="@mipmap/ic_launcher">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="98dp"
+        android:text="USER"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="27dp"
+        android:text="MANAGEMENT" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="27dp"
+        android:text="You Are Here"
+        android:layout_alignStart="@+id/button2" />
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:layout_below="@+id/mapView"
+        android:layout_alignStart="@+id/mapView"
+        android:layout_marginTop="24dp" />
+
+
+
+
+</RelativeLayout>
